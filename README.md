@@ -4,6 +4,10 @@
 node index.js --slug "de-de/pages/fotobuecher-*"
 ```
 Sucht nach allen Storys die mit `de-de/pages/fotobuecher-` beginnen und gibt die gefundenen Story aus.
+Weitere Suchmöglichkeiten: 
+```
+node index.js --s "*fotobuch-*cover,*fotobuch-echtfoto,*fotoheft" --a --t "tag"
+```
 
 ```
 node index.js --slug "de-de/pages/fotobuecher-*/" --tag "test-tag"
